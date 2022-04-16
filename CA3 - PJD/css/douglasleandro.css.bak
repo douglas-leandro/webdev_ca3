@@ -1,0 +1,40 @@
+/*for the navbar*/
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-image: url('../img/cleanBg.jpg');
+}
+
+h2 {
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-style: double;
+}
+
+p {
+	font-family: "Stencil Std";
+	font-size: 24px;
+	
+}
+
+.serviceImage {
+    display: block;
+	float: left;
+    margin-right: auto;
+	max-height: 150px;
+}
+
+.heading {
+	color: black;
+	font-family: "Luminari";
+	font-size: 36px;
+}
+
+.desc {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+	color:black;
+}
+

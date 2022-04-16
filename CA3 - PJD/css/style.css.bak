@@ -1,0 +1,132 @@
+body {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#booking {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 50px;
+  }
+  
+  div.elem-group {
+    margin: 20px 0;
+  }
+  
+  div.elem-group.inlined {
+    width: 49%;
+    display: inline-block;
+    margin-left: 1%;
+  }
+  
+  label {
+    display: block;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+  }
+  
+  input, select, textarea {
+    border-radius: 2px;
+    border: 2px solid #777;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    width: 100%;
+    padding: 10px;
+  }
+  
+  div.elem-group.inlined input {
+    width: 95%;
+    display: inline-block;
+  }
+  
+  textarea {
+    height: 250px;
+  }
+  
+  hr {
+    border: 1px dotted #ccc;
+  }
+  
+  button {
+    height: 50px;
+    background: orange;
+    border: none;
+    color: white;
+    font-size: 1.25em;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    border: 2px solid black;
+  }
+  
+  /* SERVICES PAGE*/
+.serviceImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+max-height: 150px;
+   
+
+}
+
+.heading {
+    text-align: center;
+	color: #0d6efd;
+
+}
+
+.desc {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+	color:#0d6efd;
+}
+/*Page about*/
+#aboutImage {
+  width: 370px;
+  height: 360px;
+  margin-left: 15%;
+  float: left;
+  padding-right: 1%;
+}
+.about{
+  width: 35%;
+  float: left;
+  color: #0d6efd;
+}
+#meetUs {
+  margin-top: 3%;
+} 
+#title{
+	color: #0d6efd;
+	margin-left: 52%;
+}
+#founders {
+  width: 80%;
+  margin-left: 20%;
+}
+#title2{
+	color: #0d6efd;
+	margin-left: 40%;
+}
+.links {
+  width: 250px;
+  height: 230px;
+  float: left;
+  margin: 1%;
+  border-radius: 200px;
+}
+img.founders:hover {
+  opacity: .5;
+}
+figure {
+  float: left;
+  width: 30%;
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+ 
+}	
